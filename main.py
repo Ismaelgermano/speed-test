@@ -28,7 +28,7 @@ frame_body = Frame(window, width=350, height=140, bg=co1)
 frame_body.grid(row=1, column=0, pady=1, padx=0, sticky=NSEW)
 
 # Setting up the frame logo:
-image = Image.open('speed_test_internet\\img\\speed.png') # -> criando imagem pillow
+image = Image.open('img\\speed.png') # -> criando imagem pillow
 image = image.resize((55,55))
 image = ImageTk.PhotoImage(image) # -> convertendo imagem pillow para Tkinter (para aparecer na janela tkinter)
 
@@ -59,7 +59,7 @@ label_download.place(x=20, y=10)
 label_download_t = Label(frame_body,text= 'Download Mbps', anchor=NW, font=('Arial 10'), bg=co1, fg=co4)
 label_download_t.place(x=30, y=50)
 
-image_down_up = Image.open('speed_test_internet\\img\\up_down_colored.png') # -> criando imagem pillow
+image_down_up = Image.open('img\\up_down_colored.png') # -> criando imagem pillow
 image_down_up = image_down_up.resize((55,55))
 image_down_up = ImageTk.PhotoImage(image_down_up) # -> convertendo imagem pillow para Tkinter (para aparecer na janela tkinter)
 label_logo_image = Label(frame_body, height=60, image=image_down_up, compound=LEFT, padx=10, anchor='nw', font=('Ivy 16 bold'), bg=co1, fg=co3)
