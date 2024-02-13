@@ -1,7 +1,7 @@
-# Importanto tkinter
-from tkinter import *
 # Importando pillow
 from PIL import Image, ImageTk
+# Importanto tkinter
+from tkinter import *
 #importando speedtest
 import speedtest
 
